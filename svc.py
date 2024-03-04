@@ -64,7 +64,7 @@ fold_size = X.shape[0] // num_folds
 
 svc = SVC(kernel='linear')
 
-
+ # Conversão da matriz esparsa X para uma matriz densa. 
 X_dense = X.toarray()
 
 count_fold=1
